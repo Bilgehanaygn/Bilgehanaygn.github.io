@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/bilgehanaygn.github.io/static/css/main.31d6cfe0.css",
-    "main.js": "/bilgehanaygn.github.io/static/js/main.cc03800a.js",
-    "static/js/787.c4e7f8f9.chunk.js": "/bilgehanaygn.github.io/static/js/787.c4e7f8f9.chunk.js",
-    "index.html": "/bilgehanaygn.github.io/index.html",
-    "main.cc03800a.js.map": "/bilgehanaygn.github.io/static/js/main.cc03800a.js.map",
-    "787.c4e7f8f9.chunk.js.map": "/bilgehanaygn.github.io/static/js/787.c4e7f8f9.chunk.js.map"
+    "main.css": "/website/static/css/main.31d6cfe0.css",
+    "main.js": "/website/static/js/main.c83c6b0a.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/website/static/js/787.c4e7f8f9.chunk.js",
+    "index.html": "/website/index.html",
+    "main.c83c6b0a.js.map": "/website/static/js/main.c83c6b0a.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/website/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.cc03800a.js"
+    "static/js/main.c83c6b0a.js"
   ]
 }
