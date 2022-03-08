@@ -10,12 +10,12 @@ function App() {
     <div className="App">
       
       <MyAppBar />
-      <Router basename="/Bilgehanaygn.github.io/website">
+      <Router>
         <Routes>
-          <Route path="/articles" element={<MainPage/>}/>
-          <Route path="/articles/:id" element={<PostDetails />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/" element={<Navigate to="/articles" />} />
+          <Route path="/Bilgehanaygn.github.io/website/articles" element={<MainPage/>}/>
+          <Route path="/Bilgehanaygn.github.io/website/articles/:id" element={<PostDetails />} />
+          <Route path="/Bilgehanaygn.github.io/website/about" element={<About />} />
+          <Route path="/Bilgehanaygn.github.io/website/" element={<Navigate to="/Bilgehanaygn.github.io/website/articles" />} />
         </Routes>
       </Router>
     </div>
