@@ -15,6 +15,7 @@ function App() {
           <Route path='/website' element={<MainPage/>}/>
           <Route path='/website/articles/:id' element={<PostDetails />} />
           <Route path='/website/about' element={<About />} />
+          <Route path='/website/about/about' element={<About />} />
         </Routes>
       </Router>
     </div>

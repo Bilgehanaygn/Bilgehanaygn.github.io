@@ -39,7 +39,7 @@ const About = () => {
                     <Typography>
                         <p>
                             I'm working with a company from UK unofficially, (of course I'm getting paid). What I'm doing is to create  
-                            desktop apps which automates data analysis. I'm using python(tkinter for GUI, pandas, numpy, matplotlib etc.) 
+                            desktop apps which automates data analysis. I'm using python(tkinter for GUI; pandas, numpy, matplotlib etc. for data manipulation) 
                             for this.
                         </p>
                         <p>
@@ -48,7 +48,7 @@ const About = () => {
                         </p>
                         <p>
                             I'm open for your offers of long-term internship starting from this summer.
-                            My current gpa is 2.93, I hope it will be over 3.00 by the end of this semester.
+                            My current GPA is 2.93/4, I hope it will be over 3.00 by the end of this semester.
                         </p>
                     </Typography>
                     <Typography style={{fontWeight:"bold"}}>

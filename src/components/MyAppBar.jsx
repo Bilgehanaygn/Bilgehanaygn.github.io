@@ -19,7 +19,7 @@ const MyAppBar = () => {
                 </a>
             </Typography>
             <Typography variant="h5">
-                <a href="https://bilgehanaygn.github.io/website/about" style={{fontWeight:"bold",textDecoration: "none", marginRight: 20, color:"#13110c"}}>
+                <a href="https://bilgehanaygn.github.io/website/about/" style={{fontWeight:"bold",textDecoration: "none", marginRight: 20, color:"#13110c"}}>
                     About Me
                 </a>
             </Typography>
