@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.31d6cfe0.css",
-    "main.js": "/static/js/main.cd957cd7.js",
-    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
-    "index.html": "/index.html",
-    "main.cd957cd7.js.map": "/static/js/main.cd957cd7.js.map",
-    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+    "main.css": "/bilgehanaygn.github.io/static/css/main.31d6cfe0.css",
+    "main.js": "/bilgehanaygn.github.io/static/js/main.cc03800a.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/bilgehanaygn.github.io/static/js/787.c4e7f8f9.chunk.js",
+    "index.html": "/bilgehanaygn.github.io/index.html",
+    "main.cc03800a.js.map": "/bilgehanaygn.github.io/static/js/main.cc03800a.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/bilgehanaygn.github.io/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.cd957cd7.js"
+    "static/js/main.cc03800a.js"
   ]
 }
