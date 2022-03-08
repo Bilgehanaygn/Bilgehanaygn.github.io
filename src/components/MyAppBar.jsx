@@ -9,17 +9,17 @@ const MyAppBar = () => {
     <AppBar position="static" color="primary" style={{position:"fixed",top:0,zIndex: "1", paddingRight:50}}>
         <Toolbar variant="dense">
             <Typography variant="h5" style={{flex:1}}>
-                <a href="/website" style={{fontWeight:"bold",textDecoration: "none", marginRight: 20, color:"#13110c", }}>
+                <a href="/" style={{fontWeight:"bold",textDecoration: "none", marginRight: 20, color:"#13110c", }}>
                     Home
                 </a>
             </Typography>
             <Typography variant="h5">
-                <a href="/website" style={{fontWeight:"bold",textDecoration: "none", marginRight: 20, color:"#13110c"}}>
+                <a href="/" style={{fontWeight:"bold",textDecoration: "none", marginRight: 20, color:"#13110c"}}>
                     Articles
                 </a>
             </Typography>
             <Typography variant="h5">
-                <a href="/website/about" style={{fontWeight:"bold",textDecoration: "none", marginRight: 20, color:"#13110c"}}>
+                <a href="/about" style={{fontWeight:"bold",textDecoration: "none", marginRight: 20, color:"#13110c"}}>
                     About Me
                 </a>
             </Typography>

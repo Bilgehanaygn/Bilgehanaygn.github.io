@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       
       <MyAppBar />
-      <Router basename="/website">
+      <Router>
         <Routes>
           <Route path="/articles" element={<MainPage/>}/>
           <Route path="/articles/:id" element={<PostDetails />} />
