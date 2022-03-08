@@ -13,9 +13,9 @@ function App() {
       <Router>
         <Routes>
           <Route path='/website' element={<MainPage/>}/>
+          <Route path='/website/articles' element={<MainPage/>}/>
           <Route path='/website/articles/:id' element={<PostDetails />} />
-          <Route path='/website/about' element={<About />} />
-          <Route path='/website/about/about' element={<About />} />
+          <Route path='/about' element={<About />} />
         </Routes>
       </Router>
     </div>
