@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       
       <MyAppBar />
-      <Router basename="/Bilgehanaygn.github.io/website">
+      <Router basename="/website">
         <Routes>
           <Route path="/articles" element={<MainPage/>}/>
           <Route path="/articles/:id" element={<PostDetails />} />
