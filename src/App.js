@@ -15,7 +15,8 @@ function App() {
           <Route path='/website' element={<MainPage/>}/>
           <Route path='/website/articles' element={<MainPage/>}/>
           <Route path='/website/articles/:id' element={<PostDetails />} />
-          <Route path='/about' element={<About />} />
+          <Route path='/website/about' element={<About />} />
+          <Route path='/' element={<Navigate to="/website" />} />
         </Routes>
       </Router>
     </div>
