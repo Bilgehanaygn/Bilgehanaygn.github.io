@@ -12,11 +12,10 @@ function App() {
       <MyAppBar />
       <Router>
         <Routes>
-          <Route path='/website' element={<MainPage/>}/>
-          <Route path='/website/articles' element={<MainPage/>}/>
-          <Route path='/website/articles/:id' element={<PostDetails />} />
-          <Route path='/website/about' element={<About />} />
-          <Route path='/' element={<Navigate to="/website" />} />
+          <Route path='/' element={<MainPage/>}/>
+          <Route path='/articles' element={<MainPage/>}/>
+          <Route path='/articles/:id' element={<PostDetails />} />
+          <Route path='/about' element={<About />} />
         </Routes>
       </Router>
     </div>
