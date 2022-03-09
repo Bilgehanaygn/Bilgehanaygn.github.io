@@ -1,8 +1,14 @@
 import React from 'react';
 import { AppBar, Toolbar, Typography } from '@mui/material';
+import { useNavigate } from 'react-router-dom';
 
 
 const MyAppBar = () => {
+    const navigate = useNavigate();
+
+    const handleClick = () => {
+        navigate(`/about`);
+    }
 
 
     return (
@@ -19,7 +25,7 @@ const MyAppBar = () => {
                 </a>
             </Typography>
             <Typography variant="h5">
-                <a href="https://bilgehanaygn.github.io/about/" style={{fontWeight:"bold",textDecoration: "none", marginRight: 20, color:"#13110c"}}>
+                <a onClick={()=>{handleClick()}} style={{fontWeight:"bold",textDecoration: "none", marginRight: 20, color:"#13110c"}}>
                     About Me
                 </a>
             </Typography>

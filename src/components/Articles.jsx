@@ -45,7 +45,7 @@ const Articles = () => {
     const classes = useStyles();
     
     const handleClick = (elementId) => {
-        navigate(`/website/articles/${elementId}`);
+        navigate(`/articles/${elementId}`);
     }
 
     return (
