@@ -16,7 +16,7 @@ const MainPage = () => {
 
     return (
         <Grid container className={classes.gridContaner}>
-            <Grid item md={12} sm={8} xs={8} >
+            <Grid item md={12} sm={8} xs={12} >
                 <Articles/>
             </Grid>
         </Grid>

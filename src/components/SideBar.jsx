@@ -42,7 +42,7 @@ const SideBar = () => {
             <div className={classes.profileData} >
                 <Grid container>
                     <Grid item md={9} sm={12} style={{margin:"auto"}}>
-                        <Avatar src="https://media-exp1.licdn.com/dms/image/C5603AQErinAlSXMxDw/profile-displayphoto-shrink_400_400/0/1642154741151?e=1651104000&v=beta&t=5DvfDZcRQFBDos63PmdmMe0i7k4vAxtSQh42Rvi6VgI" 
+                        <Avatar src="https://media-exp1.licdn.com/dms/image/D5603AQHIVio2YfZzEQ/profile-displayphoto-shrink_800_800/0/1646790019640?e=1652313600&v=beta&t=5EGvu2SmZ8RSXHLOvtl_-TIiA3W56GtI7cEqmMr5DDk" 
                         alt="Bilgehan Aygün" className={classes.avatar} />
                     </Grid>
                 </Grid>

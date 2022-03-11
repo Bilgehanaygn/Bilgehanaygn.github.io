@@ -93,7 +93,7 @@ const PostDetails = () => {
                                 {currentArticle.content[3] ? currentArticle.content[3] : "Error: Cannot read properties of undefined"}
                             </Typography>
                             {/* body4 */}
-                            <Typography style={{textIndent:"2em", fontWeight:"bold"}} variant="body1">
+                            <Typography style={{textIndent:"2em"}} variant="body1">
                                 {currentArticle.content[4] ? currentArticle.content[4] : "Error: Cannot read properties of undefined"}
                             </Typography>
                             {/* head4 */}
@@ -102,8 +102,29 @@ const PostDetails = () => {
                             </Typography>
                             {/* image4 */}
                             <img src={currentArticle.image[4] ? currentArticle.image[4] : "" } alt="Post Image" className={classes.image} />
+                            {/* head5 */}
+                            <Typography style={{fontWeight: "bold"}} variant="h5">
+                                {currentArticle.headings[4] ? currentArticle.headings[4] : "Error: Cannot read properties of undefined"}
+                            </Typography>
+                            {/* body5 */}
+                            <Typography style={{textIndent:"2em"}} variant="body1">
+                                {currentArticle.content[5] ? currentArticle.content[5] : "Error: Cannot read properties of undefined"}
+                            </Typography>
+                            {/* head6 */}
+                            <Typography style={{fontWeight: "bold"}} variant="h5">
+                                {currentArticle.headings[5] ? currentArticle.headings[5] : "Error: Cannot read properties of undefined"}
+                            </Typography>
+                            {/* body6 */}
+                            <Typography style={{textIndent:"2em"}} variant="body1">
+                                {currentArticle.content[6] ? currentArticle.content[6] : "Error: Cannot read properties of undefined"}
+                            </Typography>
 
 
+
+                            {/* Ending */}
+                            <Typography style={{textIndent:"2em", fontWeight:"bold"}} variant="body1">
+                                {currentArticle.ending ? currentArticle.ending : "Error: Cannot read properties of undefined"}
+                            </Typography>
 
                             {/*Date*/}
                             <Typography className={classes.date}>
