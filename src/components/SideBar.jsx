@@ -55,7 +55,7 @@ const SideBar = () => {
                 </Typography>
                 */}
                 <div className={classes.social} >
-                    <a href="https://www.linkedin.com/feed/" target="_blank">
+                    <a href="https://tr.linkedin.com/in/bilgehan-ayg%C3%BCn-0228aa20b" target="_blank">
                         <BsLinkedin style={{color:"#0e76a8"}} />
                     </a>
                     <a href="https://github.com/Bilgehanaygn?tab=repositories" target="_blank">
